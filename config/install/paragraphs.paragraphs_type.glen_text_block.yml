@@ -1,0 +1,19 @@
+uuid: 8b0d4b4c-326d-4027-8b14-349aaeebc771
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_ee
+  enforced:
+    module:
+      - glenville_text_block
+third_party_settings:
+  paragraphs_ee:
+    paragraphs_categories:
+      text: text
+id: glen_text_block
+label: 'Glenville Text Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

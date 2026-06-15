@@ -1,0 +1,29 @@
+uuid: 49e3bdd6-0db8-4d79-9788-331a93756f98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rich_text
+    - filter.format.basic_html
+    - filter.format.plain_text
+    - paragraphs.paragraphs_type.glen_text_block
+  module:
+    - text
+  enforced:
+    module:
+      - glenville_text_block
+id: paragraph.glen_text_block.field_rich_text
+field_name: field_rich_text
+entity_type: paragraph
+bundle: glen_text_block
+label: 'Rich Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - plain_text
+field_type: text_long

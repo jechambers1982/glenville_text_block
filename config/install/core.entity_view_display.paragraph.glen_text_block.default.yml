@@ -1,0 +1,25 @@
+uuid: f50f4da4-77cd-4bb9-ae73-320727989df1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.glen_text_block.field_rich_text
+    - paragraphs.paragraphs_type.glen_text_block
+  module:
+    - text
+  enforced:
+    module:
+      - glenville_text_block
+id: paragraph.glen_text_block.default
+targetEntityType: paragraph
+bundle: glen_text_block
+mode: default
+content:
+  field_rich_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
