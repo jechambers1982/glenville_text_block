@@ -1,0 +1,9 @@
+name: Glenville Text Block
+type: module
+description: 'Adds a Simple Rich Text Field'
+core_version_requirement: ^11
+package: Glenville
+dependencies:
+  - drupal:paragraphs
+  - drupal:text
+  - drupal:filter
