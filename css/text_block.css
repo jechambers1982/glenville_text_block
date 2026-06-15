@@ -1,0 +1,16 @@
+section.glenville-text-block {
+	padding: 32px 0 96px;
+}
+
+section.glenville-text-block div.row
+{
+	margin: 0;
+}
+
+section.glenville-text-block .title_row {
+	padding-bottom: 0;
+}
+
+section.glenville-text-block h2.section-title {
+	margin: 0 0 20px;
+}
